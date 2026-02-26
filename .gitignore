@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ML artifacts (large model files)
+backend/ml/artifacts/*.pkl
+backend/ml/artifacts/*.pt
+backend/ml/artifacts/*.pth
+backend/ml/artifacts/*.joblib
+backend/ml/artifacts/*.h5
+!backend/ml/artifacts/.gitkeep
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Environment variables
+.env
+.env.local
+.env.production
+!.env.example
+!backend/.env.example
+
+# Node.js
+node_modules/
+.pnpm-store/
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ruff
+.ruff_cache/
+
+# Misc
+*.bak
+*.tmp
