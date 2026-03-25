@@ -35,7 +35,7 @@
 A platform where users can:
 
 - **View AI predictions** for Indian stock price movements (up/down) using ML models trained on historical data, news sentiment, and technical indicators
-- **Paper trade** with Rs 1,00,000 virtual capital using real-time NSE/BSE prices — no real money involved
+- **Paper trade** with Rs 1,00,000 virtual capital using real-time NSE/BSE prices - no real money involved
 - **Compete on leaderboards** ranked by portfolio performance (% gain/loss) across weekly, monthly, and all-time periods
 - **Benchmark against an AI trader** that uses the same prediction engine to make autonomous trading decisions
 
@@ -444,7 +444,7 @@ StockSage-AI/
 | **BSE India** | `yfinance` (.BO suffix) | 1.2.0 | BSE-listed stock data | Same as yfinance | None |
 
 **Strategy:**
-- **Historical data backfill**: `yfinance` — download 5 years of daily OHLCV for all NSE stocks
+- **Historical data backfill**: `yfinance` - download 5 years of daily OHLCV for all NSE stocks
 - **Live quotes during market hours**: `jugaad-data` NSELive + `nsetools` as fallback
 - **End-of-day updates**: `jugaad-data` bhavcopy (official NSE daily reports)
 
