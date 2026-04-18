@@ -65,3 +65,6 @@ htmlcov/
 # Misc
 *.bak
 *.tmp
+
+# Added for consistency
+.env.*.local
